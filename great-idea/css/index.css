@@ -64,3 +64,156 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	margin:10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+}
+
+
+/* div{
+	display:inline-block;   /* !!!!!!!!! this is almost making this flex DESTROYS EVERYTHING!!!!!! 
+	padding: 10px 10px 10px 10px;
+} */
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+header{
+	display:flex;
+}
+
+#navbar{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content:stretch;
+	vertical-align: middle;
+	width:100%
+}
+
+nav {
+	display:flex;
+	flex-direction: row;     /*row reverse here works*/
+	justify-content: space-between;   /*justify not working*/
+	text-decoration:none;
+	vertical-align: middle;
+	align-content: flex-end;
+}
+
+nav a{
+	text-decoration: none;
+	color: #D3D3D3;
+	padding: 30px;
+	
+	
+
+	/*   SHOULDNT NEED:  vertical-align:center;
+	padding: 25px 1.75em 25px 1.75em; */
+}
+
+/*
+.logo {
+	display:inline-block;
+	margin-left: 20px;
+}
+*/
+
+h1{
+	
+	text-align: center;
+}
+
+button{
+	
+	text-align: center;
+	border:1px solid black;
+	margin-top: 20px;
+	padding: 0 10;  /*tb0, rl 10 */
+}
+
+#hero_zone_flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+	text-align: center;
+	width: 100%;
+
+
+}
+.hero-zone{
+	
+
+	/*width: 49%;
+	vertical-align: middle;
+	text-align:center; */
+}
+
+span {
+	text-align: center;
+}
+
+#circle_code{
+	display: inline-block;
+}
+
+.two-wide {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+
+.two-wide-div{
+	width: 49% /*400 to ~half 876 photo width*/
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.three-wide {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.three-wide-div {
+	width: 32%
+}
+
+.address {
+	padding-left: 10px;
+}
+
+footer{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+	text-align: center;
+	width: 100%;
+	
+}
+
+
+
+/*#copyright {
+	display: inline-block;
+	text-align: center;
+}*/
+
+
+/*set width of entire page :::: CONTAINTER???  */
