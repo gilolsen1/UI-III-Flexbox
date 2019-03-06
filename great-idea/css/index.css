@@ -148,13 +148,13 @@ button{
 
 
 }
-.hero-zone{
-	
 
-	/*width: 49%;
+/*.hero-zone{
+	FROM UI 2   
+	width: 49%;
 	vertical-align: middle;
-	text-align:center; */
-}
+	text-align:center;
+}*/
 
 span {
 	text-align: center;
@@ -163,6 +163,11 @@ span {
 #circle_code{
 	display: inline-block;
 }
+
+/*.one-wide-div {
+	FROM UI II
+	NEEDS STYLEING FOR SERVICES HEADER
+}*/
 
 .two-wide {
 	display: flex;
@@ -191,8 +196,38 @@ span {
 	width: 32%
 }
 
+.services_detail_container{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+.services_detail {
+	margin:20px;
+	border: 1px solid black;
+	padding: 1em;
+	background-color:lightgrey;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+	width: 500px;
+}
 .address {
 	padding-left: 10px;
+}
+.facts_and_pic{
+	width: 100%;
+	margin:20px;
+	padding: 1em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+
+}
+#facts{
+	width: 500px;   /*LEFT OFF HERE: need to finish CSS for this section*/
 }
 
 footer{
